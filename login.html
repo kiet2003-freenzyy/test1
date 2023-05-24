@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gearvn</title>
+    <link rel="stylesheet" href="style.css/login.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+<body>
+    <div class="container" id="container">
+  
+      <div class="form-container register-container">
+        <form action="#">
+          <h1>Đăng ký</h1>
+          <input type="text" placeholder="Họ và Tên">
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Mật khẩu">
+          <button id="btn-register"><a href="index-backup.html">Đăng ký</a> </button>
+        </form>
+      </div>
+      <div class="form-container login-container">
+        <form action="#">
+          <h1>Đăng nhập</h1>
+          <input type="email" placeholder="Email">
+          <input type="password" placeholder="Password">
+          <div class="content">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox">
+              <label>Nhớ tài khoản</label>
+            </div>
+            <div class="pass-link">
+              <a href="#">Quên mật khẩu?</a>
+            </div>
+          </div>
+          <button id="btn-login"><a href="index-backup.html">Đăng nhập</a> </button> 
+          <span>Đăng nhập bằng cách khác</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="uil uil-facebook"></i></a>
+            <a href="#" class="social"><i class="uil uil-google"></i></a>
+          </div>
+        </form>
+      </div>
+  
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <img src="img/logo.svg" alt="">
+            <button class="ghost" id="login">Đăng nhập
+            </button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <img src="img/logo.svg" alt="">
+            <p>Nếu bạn chưa có tài khoản thì đăng ký tại đây!</p>
+            <button class="ghost" id="register">Đăng ký
+              <i class="lni lni-arrow-right register"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </body>
+    <script >
+        const registerButton = document.getElementById("register");
+        const loginButton = document.getElementById("login");
+        const container = document.getElementById("container");
+        registerButton.addEventListener("click", () => {
+            container.classList.add("right-panel-active");
+        })
+        loginButton.addEventListener("click", () => {
+            container.classList.remove("right-panel-active");
+        })
+        var button =document.getElementById('btn-login')
+        button.onclick = function(){
+            alert("bạn đã đăng nhập thành công");
+        }
+        var button =document.getElementById('btn-register')
+        button.onclick = function(){
+            alert("bạn đã đăng ký thành công");
+        }
+    </script>
+</body>
+</html>

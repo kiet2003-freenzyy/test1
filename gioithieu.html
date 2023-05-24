@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css/pro.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="index.html" class="logo"><img src="img/logo.svg" alt="" style="width: 80%;"></a>
+        <ul class="nav-links">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="login.html">Đăng nhập</a></li>
+          <li><a href="gioithieu.html">Liên hệ</a></li>
+          <li><a href="giohang.html">Giỏ hàng</a></li>
+        </ul>
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        
+        <div class="search-box">
+          <i class="uil uil-search search-icon"></i>
+          <input type="text" placeholder="Search here..." />
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/285482366_805057397150221_6022728442560352036_n.jpg" alt="" width="100%">
+            </div>
+            <div class="col-md-8" style="padding: 10PX;">
+                <H1>Thông tin sinh viên</H1>
+                <p>Họ tên: Nguyễn Tuấn Kiệt</p>
+                <p>Mssv: 2001210871</p>
+                <p>Lớp: 12DHTH04</p>
+                <p>GVHD: Đinh Nguyễn Trọng Nghĩa</p>
+                <H1>Thông tin dự án</H1>
+                <p>Trang wed thương mại điện tử mua bán máy tính (tham khảo từ GEARVN)</p>
+                <p>Trang wed được viết bằng HTML,CSS ,Javascript</p>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <img src="" alt="">
+        </div>
+         
+    </div>
+<div class="footer">
+    <div class="container2">
+        <div class="row1">
+            <div class="footer-col">
+                <h4>Hệ thống chi nhánh</h4>
+                <ul>
+                    <li><a href="https://gearvn.com/pages/he-thong-showroom-gearvn">Khu vực miền nam</a></li>
+                    <li><a href="https://gearvn.com/pages/he-thong-showroom-gearvn">Khu vực miền bắc</a></li>
+                    <li><a href="https://gearvn.com/pages/he-thong-showroom-gearvn">Trung tâm bảo hành</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Chính sách tại GEARVN</h4>
+                <ul>
+                    <li><a href="https://gearvn.com/pages/chinh-sach-bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="https://gearvn.com/pages/chinh-sach-giao-hang">Chính sách giao hàng</a></li>
+                    <li><a href="https://gearvn.com/pages/chinh-sach-bao-mat">Chính sách trả góp</a></li>
+                    <li><a href="https://gearvn.com/pages/huong-dan-tra-gop">Hướng dẫn trả góp</a></li>
+                    <li><a href="https://gearvn.com/pages/huong-dan-thanh-toan-gearvn">Hướng dẫn thanh toán</a></li>
+                    <li><a href="https://gearvn.com/pages/khuyen-mai">Tổng hợp khuyến mãi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Holine hỗ trợ khách hàng</h4>
+                <ul>
+                    <li><a href="#">Gọi mua hàng: 18006975</a></li>
+                    <li><a href="#">Gọi CSKH: 18006173</a></li>
+                    <li><a href="#">Gọi bảo hành: 18006173</a></li>
+                    <li><a href="#">Kỹ thuật: 18006173</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cộng đồng GEARVN</h4>
+                <div class="social-link">
+                    <a href="https://www.facebook.com/gearvnhcm"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/gearvnn/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://gvn360.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCdxRpD_T4-HzPsely-Fcezw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<script>
+    const nav = document.querySelector(".nav"),
+  searchIcon = document.querySelector("#searchIcon"),
+  navOpenBtn = document.querySelector(".navOpenBtn"),
+  navCloseBtn = document.querySelector(".navCloseBtn");
+
+searchIcon.addEventListener("click", () => {
+  nav.classList.toggle("openSearch");
+  nav.classList.remove("openNav");
+  if (nav.classList.contains("openSearch")) {
+    return searchIcon.classList.replace("uil-search", "uil-times");
+  }
+  searchIcon.classList.replace("uil-times", "uil-search");
+});
+
+navOpenBtn.addEventListener("click", () => {
+  nav.classList.add("openNav");
+  nav.classList.remove("openSearch");
+  searchIcon.classList.replace("uil-times", "uil-search");
+});
+navCloseBtn.addEventListener("click", () => {
+  nav.classList.remove("openNav");
+});
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/ulg/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

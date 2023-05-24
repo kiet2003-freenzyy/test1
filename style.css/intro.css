@@ -1,0 +1,14 @@
+
+body{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1287415702950350675/DE7D3AA225BC3E5FD9274C637F65D9DBDAC02B80/);
+  }
+  .header{
+    background-color: white;
+  }
+  .container{
+    background-color: white;
+  }
+.row{
+    align-items: center;
+    margin: auto;
+}
